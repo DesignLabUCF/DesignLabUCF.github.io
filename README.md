@@ -10,6 +10,11 @@ To set up [**Jekyll**](https://jekyllrb.com/) I follow the instructions at [http
 jekyll serve
 ```
 
+for production change the <code>URL</code> in the <code>_config.dev</code> to be IST URL.
+```bash
+JEKYLL_ENV=production jekyll build
+```
+
 
 ### Front Page
 The front page utilizes <code>index.html</code> as the main driver.
