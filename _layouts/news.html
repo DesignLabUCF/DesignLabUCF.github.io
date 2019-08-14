@@ -1,0 +1,26 @@
+---
+layout: default
+---
+
+    <div class="container" id="main">
+        <div class="row">
+
+            <div class="col-xs-12 col-sm-12 col-md-9">
+                <h2>Archived News</h2>
+                Archive of all news feed items:<BR><BR>
+            </div>
+         </div>
+
+        <div class="row" style="padding-bottom: 18px;">
+            {% for item in site.data.news %}
+            <div class="col-md-2">
+            <B>{{ item.date }}</B>
+            </div>
+            <div class="col-md-10 custom_about" style="padding-bottom: 18px;">
+            {{ item.name }} 
+            </div>
+            {% endfor %}
+         </div>
+
+
+    </div>
