@@ -34,10 +34,31 @@ layout: default
             {{ item.profile }} </font>
             </div>
 
-
             </div>
             {% endfor %}
-         
 
+            <HR width="90%">
+         
+            <div class="row"><div class="col-xs-12 col-sm-12 col-md-11">
+                <BR><center><h4>Students</h4><BR></center>
+            </div></div>
+
+            <div class="row" style="padding-bottom: 18px;">
+            {% for item in site.students %}
+            
+            
+            <div class="col-md-2 col-xs-1 col-sm-1">
+            <img width="100%" src="{{site.url}}/imgs/team/{{item.image}}.jpg"><BR>
+            <B>{{ item.name }}</B><BR>
+            {{ item.title }}
+            <font size="2"><BR>
+            {{ item.email }}<BR>
+            Advised by Prof. {{ item.advisor }}
+            </font>
+            </div>
+
+            
+            {% endfor %}
+            </div>
 
     </div>
