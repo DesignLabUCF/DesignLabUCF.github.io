@@ -16,3 +16,7 @@ kramdown:
   input: GFM
 collections:
   - publications
+  - corefaculty
+  - students
+  - paststudents
+  - sponsors
