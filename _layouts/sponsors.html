@@ -13,24 +13,22 @@ The SENSEable Design Lab  is an inherently interdisciplinary approach to Modelin
 
 
             <div class="row"><div class="col-xs-12 col-sm-12 col-md-11">
-                <BR><center><h4>Funding</h4><BR></center>
+                <BR><center><h4>Funding</h4><HR width="75%"><BR> </center>
             </div></div>
 
            {% for item in site.sponsors reversed %}
-            <div class="row" style="padding-bottom: 18px;">
+            <div class="row" style="padding-bottom: 10px;">
             
-            <div class="col-md-3">
-            <img width="100%" src="{{site.url}}/imgs/collaborators/{{item.image}}.jpg">
+            <div class="col-md-2" align="center">
+            <img width="60%" src="{{site.url}}/imgs/collaborators/{{item.image}}.jpg"><BR><font size="2"><B>{{ item.sponsor }}</B></font><BR><BR>
             </div>
             
-            <div class="col-md-8 custom_about" style="padding-bottom: 18px;">
-            <font size="5"><B>{{ item.name }}</B></font> <font size="2"><BR>
-            <B>{{ item.title }}</B> <BR>
-            Office: {{ item.office }} <BR>
-            Phone: {{ item.phone }} <BR>
-            Email: {{ item.email }}<BR>
-            <a href="{{ item.website }}">Website</a><BR><BR>
-            {{ item.profile }} </font>
+            <div class="col-md-9 custom_about" style="padding-bottom: 18px;">
+            <font size="5"><B>{{ item.name }}</B></font> <font size="2">{{ item.award }}<BR>
+            <B>${{ item.amount }} - {{ item.sponsor }}</B> <BR>
+            <B>PI:</B> {{ item.pi }}; &nbsp;&nbsp; <B>Co-PI(s):</B> {{ item.copi }} <BR>
+            <B>Status:</B> {{ item.status }} <BR>
+            <B>Sponsor:</B> <a href="{{ item.link }}">{{ item.sponsor }} Website Link</a><BR></font>
             </div>
 
             </div>
@@ -38,3 +36,4 @@ The SENSEable Design Lab  is an inherently interdisciplinary approach to Modelin
 
 
 </div>
+<BR>
