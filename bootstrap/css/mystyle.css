@@ -95,8 +95,8 @@ header {
     padding-bottom: 0 0;
 }
 .navbar-brand.fixed-theme, .navbar-container.fixed-theme, .navbar.navbar-fixed-top.fixed-theme, .navbar-brand, .navbar-container {
-    transition: 0.5s ease-out;
-    -webkit-transition: 0.5s ease-out;
+    transition: 0.3s ease-out;
+    -webkit-transition: 0.3s ease-out;
 }
 
 /* fixed to top styles */
@@ -129,7 +129,7 @@ header {
 }
 .affix.navbar .navbar-brand {
     color: #fff;
-    font-size: 25px;
+    font-size: 23px;
 }
 .affix .menucontainer {
     border-bottom: 0px;
@@ -174,13 +174,14 @@ header {
   height: 71px;
   margin-top:16px;
   padding: 0px;
+  margin-right: 5px;
 
 }
 
 .affix.navbar .nav-navpeg
 {
-  width: 30px;
-  height: 23px;
+  width: 50px;
+  height: 53px;
   margin-top:0px;
   padding: 0px;
 }
@@ -197,6 +198,20 @@ header {
 
 @media (min-width: 992px) and (max-width: 1199px) 
 {
+
+
+.nav-navpeg
+{
+
+  background-image: url("../../imgs/tab.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 58px;
+  height: 68px;
+  margin-top:16px;
+  padding: 0px;
+
+}
 
 .navbar-brand {
     font-size: 27.6px;
@@ -222,9 +237,50 @@ header {
 
 }
 
+@media (min-width: 650px) and (max-width: 991px) {
+
+.navbar-brand {
+    font-size: 29.4px;
+    transition: 0.3s ease-out;
+    -webkit-transition: 0.3s ease-out;
+}
+.nav-lower-brand {
+    color: #888;
+    font-size: 16.3px;
+    line-height: 16px;
+    transition: 0.5s ease-out;
+    -webkit-transition: 0.3s ease-out;
+}
 
 
-@media (min-width: 18px) and (max-width: 991px) {
+}
+
+@media (min-width: 18px) and (max-width: 649px) {
+
+.container{
+padding:25px;
+
+}
+
+.custom_about_new  a{
+    font-size: 26.3px;
+}
+.custom_about_new  {
+    font-size: 26.3px;
+}
+
+.nav-navpeg
+{
+
+  background-image: url("../../imgs/tab.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 58px;
+  height: 68px;
+  margin-top:16px;
+  padding: 0px;
+
+}
 
 .affix .menucontainer:before {
   position: absolute;
@@ -237,13 +293,13 @@ header {
 }
 
 .navbar-brand {
-    font-size: 25.4px;
+    font-size: 20.4px;
     transition: 0.3s ease-out;
     -webkit-transition: 0.3s ease-out;
 }
 .nav-lower-brand {
     color: #888;
-    font-size: 13.8px;
+    font-size: 11.3px;
     line-height: 16px;
     transition: 0.5s ease-out;
     -webkit-transition: 0.3s ease-out;
@@ -260,6 +316,8 @@ header {
     }
     .affix.navbar .custom-toggler.navbar-toggler {
         border: 4px solid #999;
+        margin-bottom: 4px;
+        margin-top: 4px;
         
     }
 
