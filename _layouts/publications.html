@@ -11,7 +11,7 @@ layout: default
 
 
             <div class="col-xs-11 col-sm-11 col-md-11 mx-auto paperstuff custom_about">
-            {% for item in site.publications reversed %}
+            {% for item in site.data.publications reversed %}
 
             <b><a href="{{item.link}}">{{ item.title }}</a></b><br>
             {{ item.authors }}<br>

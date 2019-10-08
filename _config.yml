@@ -15,7 +15,6 @@ include: ['_pages']
 kramdown:
   input: GFM
 collections:
-  - publications
   - corefaculty
   - students
   - paststudents
