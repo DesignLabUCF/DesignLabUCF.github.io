@@ -19,5 +19,4 @@ collections:
   - corefaculty
   - students
   - paststudents
-  - sponsors
 exclude: [professional_development]

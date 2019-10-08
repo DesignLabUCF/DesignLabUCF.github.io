@@ -16,7 +16,7 @@ The SENSEable Design Lab  is an inherently interdisciplinary approach to Modelin
                 <BR><center><h4>Funding</h4><HR width="75%"><BR> </center>
             </div></div>
 
-           {% for item in site.sponsors reversed %}
+           {% for item in site.data.sponsors reversed %}
             <div class="row" style="padding-bottom: 10px;">
             
             <div class="col-md-2" align="center">
@@ -24,7 +24,7 @@ The SENSEable Design Lab  is an inherently interdisciplinary approach to Modelin
             </div>
             
             <div class="col-md-9 custom_about" style="padding-bottom: 18px;">
-            <font size="5"><B>{{ item.name }}</B></font> <font size="2">{{ item.award }}<BR>
+            <font size="5"><B>{{ item.name }}</B></font> &nbsp;<font size="2">({{ item.award }})<BR>
             <B>${{ item.amount }} - {{ item.sponsor }}</B> <BR>
             <B>PI:</B> {{ item.pi }}; &nbsp;&nbsp; <B>Co-PI(s):</B> {{ item.copi }} <BR>
             <B>Status:</B> {{ item.status }} <BR>
