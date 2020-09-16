@@ -119,6 +119,13 @@
     "year":"2018"
   },
   {
+    "title":"Accurate graphics BRDF material properties and illumination for dirt and mudbrick structures",
+    "link":"https://www.chnt.at/wp-content/uploads/Accurate-graphics-BRDF-material-properties-and-illumination-for-dirt-and-mudbrick-structures.pdf",
+    "authors":"Emiliya Al Yafei, Virginia Badler, Norman I. Badler, Joseph T. Kider Jr.",
+    "conference":"International Conference on Cultural Heritage and New Technologies",
+    "year":"2019"
+  },
+  {
     "title":"Robust Path Matching and Anomalous Route Detection Using Posterior Weighted Graphs",
     "link":"https://dl.acm.org/citation.cfm?id=3338905",
     "authors":"Lauren Doocy, Steven D. Prager, Joseph T. Kider Jr., R. Paul Wiegand",
@@ -134,9 +141,16 @@
   },
   {
     "title":"Simulation Analysis of a Ventilated Building Integrated-Photovoltaics Air-Gap Duct System for Natural Ventilation of a Building",
-    "link":"http://buildingsimulation2019.org",
+    "link":"http://www.ibpsa.org/proceedings/BS2019/BS2019_210893.pdf",
     "authors":"Arash Zarmehr, Joseph T. Kider Jr.",
     "conference":"Building Simulation",
     "year":"2019"
+  },
+  {
+    "title":"Real-time spectral radiance estimation of hemispherical clear skies with machine learned regression models",
+    "link":"https://www.sciencedirect.com/science/article/abs/pii/S0038092X20303807",
+    "authors":"Joseph Del Rocco, Paul Bourke, Charles B. Patterson, Joseph T. Kider Jr.",
+    "conference":"Solar Energy",
+    "year":"2020"
   }
 ]
