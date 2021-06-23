@@ -4,3 +4,4 @@ email: jkider@ist.ucf.edu
 baseurl: ""
 #url: "http://senseable.ist.ucf.edu"
 url: "https://DesignLabUCF.github.io"
+redirects: yes
