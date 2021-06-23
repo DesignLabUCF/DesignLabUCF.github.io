@@ -1,0 +1,21 @@
+# Site Settings
+title: Joseph Kider
+email: jkider@ist.ucf.edu
+description: >
+ We are an inter-disciplinary research group with a grounding in computer science that develops computational methods, design practices, and performative metrics to create and evaluate embodied designs.
+baseurl: ""
+#url: "http://senseable.ist.ucf.edu"
+url: "https://DesignLabUCF.github.io"
+twitter_username: kiderj
+github_username:  hepcatjk
+# Build Settings
+sass:
+  sass_dir: _sass
+include: ['_pages']
+kramdown:
+  input: GFM
+collections:
+  - corefaculty
+  - students
+  - paststudents
+exclude: [professional_development]
