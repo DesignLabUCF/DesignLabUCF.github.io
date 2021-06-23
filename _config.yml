@@ -4,10 +4,3 @@ email: jkider@ist.ucf.edu
 baseurl: ""
 #url: "http://senseable.ist.ucf.edu"
 url: "https://DesignLabUCF.github.io"
-twitter_username: kiderj
-github_username:  hepcatjk
-# Build Settings
-sass:
-  sass_dir: _sass
-kramdown:
-  input: GFM
