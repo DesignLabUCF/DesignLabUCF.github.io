@@ -5,3 +5,10 @@ baseurl: ""
 #url: "http://senseable.ist.ucf.edu"
 url: "https://DesignLabUCF.github.io"
 redirects: yes
+redirect_to:
+  - https://sdl.eecs.ucf.edu
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
+  - jekyll-mentions
+  - jekyll-redirect-from
